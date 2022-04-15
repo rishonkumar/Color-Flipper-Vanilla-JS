@@ -13,7 +13,7 @@ btn.addEventListener('click',function() {
 
     //get random number b/w 0 - 3 (array idx)
     const randomNumber = getRandomNumber();
-    console.log(randomNumber);
+    // console.log(randomNumber);
     document.body.style.backgroundColor = colors[randomNumber];
     //have to change color number
     color.textContent = colors[randomNumber];
